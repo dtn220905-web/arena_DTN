@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TRƯỜNG ĐÀO TẠO THIẾT KẾ ĐỒ HOẠ ARENA MULTIMEDIA</title>
+<link rel="icon" href="images/logo_8.png">
+<link rel="stylesheet" href="CSS/Mainstyle.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+      <div class="col-3">
+        <a href="#"><img src="images/logo_8.png" alt="logo arena"></a>
+      </div>
+      <div class="col-9">
+        <h1>TRƯỜNG ĐÀO TẠO THIẾT KẾ ĐỒ HOẠ <br>ARENA MULTIMEDIA</h1>
+      </div>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html"> TRANG CHỦ </a></li>
+            <li><a href="gioi_thieu.html"> GIỚI THIỆU</a>
+                <ul>
+                    <li><a href="multimedia.html"> Multimedia </a></li>
+                    <li><a href="co_so_vat_chat.html"> CƠ SỞ VẬT CHẤT</a></li>
+                    <li><a href="tai_sao_lai_chon_arena.html">TẠI SAO LẠI CHỌN ARENA</a></li>
+                </ul>
+            </li>
+            <li><a href="tuyen_sinh.html"> TUYỂN SINH</a>
+                <ul>
+                    <li><a href="2d_design.html"> 2D Design</a></li>
+                    <li><a href="web_app_design.html"> WEB APP DESIGN</a></li>
+                    <li><a href="video_editing.html"> VIDEO EDITING</a></li>
+                    <li><a href="3d_charactor.html"> 3D CHARACTER </a></li>
+                </ul>
+            </li>
+            <li><a href="tu_van.html">TƯ VẤN </a></li>
+            <li><a href="lien_he.html">LIÊN HỆ </a></li>
+            <li><a href="dang_ky_hoc.html"> ĐĂNG KÝ HỌC </a></li> 
+        </ul>
+    </div>
+</div> <!-- đóng container trên -->
+
+<!-- FORM ĐỂ NGOÀI CONTAINER ĐỂ KHÔNG BỊ TEXT-ALIGN CENTER -->
+
+<form class="form-box">
+
+    <h2>Đăng ký học Arena Multimedia</h2>
+    <p>Bạn đã sẵn sàng bước vào hành trình sáng tạo cùng Arena Multimedia chưa?</p>
+
+    <label>Họ Tên *</label>
+    <input type="text" name="fullname" placeholder="Nhập họ tên" required>
+
+    <label>Email *</label>
+    <input type="email" name="email" placeholder="Nhập Email của bạn" required>
+
+    <label>Số điện thoại *</label>
+    <input type="tel" name="phone" placeholder="Số điện thoại" required>
+
+    <label>Giới tính</label>
+    <div>
+        <label><input type="radio" name="gender" value="Nam"> Nam</label>
+        <label><input type="radio" name="gender" value="Nữ"> Nữ</label>
+        <label><input type="radio" name="gender" value="Khác"> Khác</label>
+    </div>
+
+    <label>Trình độ học vấn</label>
+    <select name="edu">
+        <option value="">-- Chọn trình độ --</option>
+        <option>THPT</option>
+        <option>Cao đẳng</option>
+        <option>Đại học</option>
+        <option>Đã đi làm</option>
+    </select>
+
+    <label>Chọn địa điểm học</label>
+    <select name="location" required>
+        <option value="">-- Chọn địa điểm --</option>
+        <option>Hà Nội</option>
+        <option>TP Hồ Chí Minh</option>
+        <option>Đà Nẵng</option>
+        <option>Hải Phòng</option>
+    </select>
+
+    <label>Chọn khóa học</label>
+    <select name="course" required>
+        <option value="">-- Chọn khóa học --</option>
+        <option>Multimedia Designer</option>
+        <option>3D & Animation</option>
+        <option>Web Design</option>
+        <option>Video & Motion Graphics</option>
+    </select>
+
+    <button type="submit">ĐĂNG KÝ</button>
+</form>
+
+</body>
+</html>
+
